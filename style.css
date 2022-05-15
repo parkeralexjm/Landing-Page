@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 a {
@@ -41,7 +42,7 @@ a {
     /* Future, find out why i need to put header li a instead of just putting it in header li */
 }
 
-.information { /* modal */
+.information { 
     background-color: #1F2937;
     display: flex;
     padding: 10%;
@@ -80,4 +81,34 @@ a {
     height: 27px;
     padding: 0;
     margin-top: 10px;
+}
+
+.display {
+    padding: 1% 10%;
+}
+
+.displayTitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.displayContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content {
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.displayImage {
+    min-width: 100px;
+    min-height: 100px;
+    border: 3px #3882F6 solid;
+    border-radius: 15px;
 }
