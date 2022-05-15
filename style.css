@@ -16,8 +16,7 @@ a {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding-right: 10%;
-    padding-left: 10%;  
+    padding: 0% 10%;
 }
 
 #headerLogo {
@@ -51,7 +50,6 @@ a {
 .informationContainer {
     flex-direction: column;
     display: flex;
-    margin-right: 5%;
 }
 
 .informationHeader {
@@ -69,6 +67,7 @@ a {
 .informationImage {
     color: white;
     background-color: grey;
+    margin-left: auto;
 }
 
 .signup {
