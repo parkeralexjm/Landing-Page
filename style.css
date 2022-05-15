@@ -75,16 +75,16 @@ a {
     background-color: #3882F6;
     color: white;
     border: 2px solid #3882F6;
-    border-radius: 5px;
+    border-radius: 6px;
     font-weight: 900;
     width: 100px;
-    height: 27px;
+    height: 30px;
     padding: 0;
     margin-top: 10px;
 }
 
 .display {
-    padding: 10% 10%
+    padding: 5% 10%
 }
 
 .displayTitle {
@@ -116,7 +116,7 @@ a {
 
 .quote {
     display: flex;
-    padding: 10% 25%;
+    padding: 5% 15%;
     flex-direction: column;
     background-color: #E5E7EB;
 }
@@ -133,4 +133,57 @@ a {
     text-align: right;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.action {
+    padding: 3% 10%;
+}
+
+.actionBackground {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 5% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.actionContainer {
+
+    margin: 3% 0% 3% 15%;
+}
+
+.actionSignup {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-weight: 900;
+    width: 100px;
+    height: 30px;
+    margin-right: 10%;
+}
+
+.actionTitle {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.actionText {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.footerText {
+    color: white;
 }
