@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.introduction {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;  
+}
+
+#headerLogo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF6;
+}
+
+.headerlink {
+    margin-left: auto;
+    font-size: 18px;
+    
+}
+
+.header li {
+    display: inline;
+    padding: 4px;
+}
+
+.header li a {
+    color: #F9FAF6;
+    /* Future, find out why i need to put header li a instead of just putting it in header li */
+}
+
+
+  
